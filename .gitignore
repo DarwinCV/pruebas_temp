@@ -1,0 +1,43 @@
+# Archivos y carpetas generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpeta de entorno virtual
+venv/
+
+# Archivos de registro y caché
+*.log
+*.swp
+*.swo
+*.cache
+*.csv
+
+# Carpeta de resultados y modelos
+results/
+models/
+
+# Dependencias y paquetes
+env/
+lib/
+bin/
+
+# Archivos de configuración
+config.ini
+.env
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.pydevproject
+
+# Otros archivos y carpetas
+*.bak
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.rar
+*.egg-info/
+dist/
+build/
