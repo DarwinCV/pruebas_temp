@@ -22,4 +22,5 @@ pipeline.fit(X_train, y_train)
 
 # Paso 5: Evaluar el rendimiento del modelo en el conjunto de prueba
 r2_score = pipeline.score(X_test, y_test)
-print('Coeficiente de determinación (R2):', r2_score)
+print('Coeficiente de correlacion (R2):', r2_score)
+
