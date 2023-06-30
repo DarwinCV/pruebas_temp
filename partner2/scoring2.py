@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 
 # Paso 1: Cargar los datos
 # Reemplaza cargar_datos() con la función adecuada para cargar tus datos
-X, y = load_data()
+X, y = load_datos_buyer()
 
 # Paso 2: Dividir los datos en conjunto de entrenamiento y prueba
 X_train, X_test, y_train, y_test = train_test_split(
