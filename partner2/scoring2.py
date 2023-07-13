@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 
 # Paso 1: Cargar los datos
 # Reemplaza cargar_datos() con la función adecuada para cargar tus datos
-X, y = load_datos_buyer()
+X, y = load_datos_partners()
 
 # Paso 2: Dividir los datos en conjunto de entrenamiento y prueba
 X_train, X_test, y_train, y_test = train_test_split(
@@ -24,4 +24,5 @@ pipeline.fit(X_train, y_train)
 r2_score = pipeline.score(X_test, y_test)
 print('Coeficiente de correlacion (R2):', r2_score)
 print('fin de modelamiento')
+
 
