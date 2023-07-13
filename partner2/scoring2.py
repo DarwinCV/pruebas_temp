@@ -7,9 +7,6 @@ from sklearn.linear_model import LinearRegression
 # Reemplaza cargar_datos() con la función adecuada para cargar tus datos
 X, y = load_datos_partners()
 
-for i in range(1,3):
-    print(i)
-
 # Paso 2: Dividir los datos en conjunto de entrenamiento y prueba
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42)
